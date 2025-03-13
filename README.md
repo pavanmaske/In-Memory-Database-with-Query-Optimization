@@ -15,19 +15,25 @@ C++ 17	, SQLite , B+ Trees	, LRU Cache	, CMake
 🛠️ Installation & Setup
 
 1. Clone the Repository
+   
 git clone https://github.com/pavanmaske/In-Memory-Database-with-Query-Optimization.git
+
 cd in-memory-db
 
-2. Build the Project
+3. Build the Project
 
 mkdir build && cd build
+
 cmake ..
+
 make
 
 3. Run the Database
+   
 ./db_main
 
-4. Run Tests
+5. Run Tests
+   
 ./runTests
 
 
