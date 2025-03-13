@@ -25,7 +25,7 @@ A high-performance, lightweight in-memory database built using **C++**, featurin
 ##  **Installation & Setup**
 
 ### **1. Clone the Repository**
-(` ```sh
+(` 
 git clone https://github.com/pavanmaske/In-Memory-Database-with-Query-Optimization.git
 cd in-memory-db
 `)
