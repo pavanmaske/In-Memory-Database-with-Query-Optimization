@@ -1,10 +1,10 @@
-# 🚀 In-Memory Database with Query Optimization
+#  In-Memory Database with Query Optimization
 
 A high-performance, lightweight in-memory database built using **C++**, featuring **B+ Trees** for indexing, optimized query execution, **LRU caching**, and **ACID transactions**.
 
 ---
 
-## 📢 **Features**
+##  **Features**
 ✅ **Fast Query Execution** – Uses **B+ Trees** for efficient indexing and retrieval.  
 ✅ **SQL-like Query Processing** – Basic **SQL-style queries** for ease of use.  
 ✅ **ACID Transactions** – Ensures **data consistency** with commit/rollback support.  
@@ -13,18 +13,41 @@ A high-performance, lightweight in-memory database built using **C++**, featurin
 
 ---
 
-## 🛠 **Tech Stack**
-- 🏷️ **C++ 17**  
-- 🔍 **SQLite**  
-- 🌳 **B+ Trees**  
-- 🔥 **LRU Cache**  
-- 🔧 **CMake**  
+##  **Tech Stack**
+-  **C++ 17**  
+-  **SQLite**  
+-  **B+ Trees**  
+-  **LRU Cache**  
+-  **CMake**  
 
 ---
 
-## ⚙️ **Installation & Setup**
+##  **Installation & Setup**
 
-### **1️⃣ Clone the Repository**
-```sh
+### **1. Clone the Repository**
+(` ```sh
 git clone https://github.com/pavanmaske/In-Memory-Database-with-Query-Optimization.git
 cd in-memory-db
+`)
+
+### **2. Build the Project**
+(` ```sh
+mkdir build && cd build
+cmake ..
+make
+`)
+
+### **3. Run the Database**
+(` ```sh
+./db_main
+`)
+
+### **4. Run Tests**
+(` ```sh
+./runTests
+`)
+
+## **Author**
+## **Pavan**
+
+## **Feel free to contribute or suggest improvements!**
