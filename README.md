@@ -31,21 +31,21 @@ A high-performance, lightweight in-memory database built using **C++**, featurin
 
 
 ### **2. Build the Project**
-(` ```sh
-mkdir build && cd build
-cmake ..
-make
-`)
+
+    mkdir build && cd build
+    cmake ..
+    make
+
 
 ### **3. Run the Database**
-(` ```sh
-./db_main
-`)
+
+    ./db_main
+
 
 ### **4. Run Tests**
-(` ```sh
-./runTests
-`)
+
+    ./runTests
+
 
 ## **Author**
 ## **Pavan**
