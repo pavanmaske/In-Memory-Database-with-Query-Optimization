@@ -20,7 +20,7 @@ git clone https://github.com/pavanmaske/In-Memory-Database-with-Query-Optimizati
 
 cd in-memory-db
 
-3. Build the Project
+2. Build the Project
 
 mkdir build && cd build
 
@@ -32,7 +32,7 @@ make
    
 ./db_main
 
-5. Run Tests
+4. Run Tests
    
 ./runTests
 
