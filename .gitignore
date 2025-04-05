@@ -1,0 +1,10 @@
+# Ignore compiled files
+*.o
+*.out
+*.exe
+build/
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore logs and test output
+*.log
